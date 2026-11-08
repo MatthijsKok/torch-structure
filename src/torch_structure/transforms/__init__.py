@@ -6,10 +6,10 @@ from .scale import RandomizedScaleX, ScaleX, ScaleZ
 
 __all__ = [
     "AddGaussianXYZNoise",
-    "AddLaplacianZNoise",
     "AddGaussianZNoise",
+    "AddLaplacianZNoise",
     "AddRadialZNoise",
-    "ScaleZ",
-    "ScaleX",
     "RandomizedScaleX",
+    "ScaleX",
+    "ScaleZ",
 ]

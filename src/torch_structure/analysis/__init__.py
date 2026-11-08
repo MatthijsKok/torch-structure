@@ -8,8 +8,8 @@ from .frame import FrameResult, frame_analysis
 
 __all__ = [
     "FrameResult",
-    "frame_analysis",
     "condense_releases",
+    "frame_analysis",
     "local_axes",
     "local_stiffness",
     "transformation_matrix",

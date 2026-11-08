@@ -12,4 +12,4 @@ class TSMixin(CEMMixin, FDMMixin, FEMMixin, LaplacianMixin, PlotMixin, TNAMixin)
 
     pass
 
-__all__ = ["TSMixin", "CEMMixin", "FDMMixin", "FEMMixin", "LaplacianMixin", "PlotMixin", "TNAMixin", "OverrideResolveMixin"]
+__all__ = ["CEMMixin", "FDMMixin", "FEMMixin", "LaplacianMixin", "OverrideResolveMixin", "PlotMixin", "TNAMixin", "TSMixin"]

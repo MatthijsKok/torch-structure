@@ -14,15 +14,15 @@ from .structure import (
 )
 
 __all__ = [
-    "plot_structure",
-    "draw_pattern_elements",
+    "COMPRESSION_COLOR",
+    "LOAD_COLOR",
+    "PATTERN_COLOR",
+    "REACTION_COLOR",
+    "TENSION_COLOR",
     "classify_affine",
+    "draw_pattern_elements",
     "pattern_levels",
     "plot_data",
     "plot_data_xz",
-    "PATTERN_COLOR",
-    "TENSION_COLOR",
-    "COMPRESSION_COLOR",
-    "LOAD_COLOR",
-    "REACTION_COLOR",
+    "plot_structure",
 ]

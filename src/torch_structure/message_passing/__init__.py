@@ -5,9 +5,9 @@ from .residual_force import ResidualForce
 
 __all__ = [
     "FEM",
-    "StiffnessAggregator",
     "Laplacian",
     "LocalLogicLoss",
-    "WeightedMax",
     "ResidualForce",
+    "StiffnessAggregator",
+    "WeightedMax",
 ]
