@@ -1,6 +1,5 @@
 import torch
 
-
 # Rotational DOFs of the 12 element DOFs, per node ordered [ux, uy, uz, rx, ry, rz]
 ROTATIONAL_DOFS = (3, 4, 5, 9, 10, 11)
 

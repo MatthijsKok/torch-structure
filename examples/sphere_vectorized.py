@@ -1,6 +1,8 @@
-import torch
-from torch_structure.data.data import StructData
 import matplotlib.pyplot as plt
+import torch
+
+from torch_structure.data.data import StructData
+
 N_SECTORS = 10
 N_RINGS = 7
 NUM_EDGES = (2 * N_RINGS + 1) * N_SECTORS

@@ -1,7 +1,8 @@
 import torch
+
 from torch_structure.geometry.intersect import (
-    point_normal_to_plane,
     line_plane_intersect,
+    point_normal_to_plane,
 )
 
 

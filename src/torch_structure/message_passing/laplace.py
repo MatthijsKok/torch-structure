@@ -1,5 +1,5 @@
-from torch_geometric.nn import MessagePassing
 import torch
+from torch_geometric.nn import MessagePassing
 
 
 class Laplacian(MessagePassing):

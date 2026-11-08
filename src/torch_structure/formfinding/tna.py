@@ -1,7 +1,7 @@
 import torch
 
-from torch_structure.formfinding.utils import create_xy_equilibrium_space
 from torch_structure.formfinding.fdm import fdm
+from torch_structure.formfinding.utils import create_xy_equilibrium_space
 
 
 def tna(

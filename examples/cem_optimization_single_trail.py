@@ -4,12 +4,13 @@ Example: Optimize a single trail sequencce using CEM and scipy
 This is a minimal example of optimization with torch_structure
 """
 
+import matplotlib.pyplot as plt
+import numpy as np
 import torch
+from scipy.optimize import Bounds, minimize
+
 import torch_structure as ts
 from torch_structure.data import StructData
-from scipy.optimize import minimize, Bounds
-import numpy as np
-import matplotlib.pyplot as plt
 
 # ------------------------------
 # 1. Create initial setup

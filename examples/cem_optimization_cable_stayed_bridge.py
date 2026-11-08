@@ -5,10 +5,11 @@ This example demonstrates how to use torch_structure to optimize the force distr
 in a cable-stayed bridge so that the bridge deck is as flat as possible.
 """
 
-import torch
-import torch_structure as ts
-from scipy.optimize import minimize
 import matplotlib.pyplot as plt
+import torch
+from scipy.optimize import minimize
+
+import torch_structure as ts
 
 # ------------------------------
 # 1. Create initial bridge setup

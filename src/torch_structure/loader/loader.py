@@ -1,7 +1,9 @@
+from typing import List, Optional, Sequence, Union
+
 import torch
 from torch_geometric.data import Batch
-from torch_structure.data import StructData, Dataset
-from typing import List, Optional, Sequence, Union
+
+from torch_structure.data import Dataset, StructData
 
 
 class Collater:

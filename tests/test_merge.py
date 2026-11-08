@@ -2,9 +2,10 @@ import warnings
 
 import pytest
 import torch
+
 from torch_structure.data.data import StructData
 
-    
+
 def test_merge_one_grid_to_cylinder():
 
     print("test_merge_one_grid_to_cylinder is not yet implemented")

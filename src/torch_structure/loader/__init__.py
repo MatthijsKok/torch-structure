@@ -1,3 +1,3 @@
-from .loader import DataLoader, Collater
+from .loader import Collater, DataLoader
 
 __all__ = ["DataLoader", "Collater"]

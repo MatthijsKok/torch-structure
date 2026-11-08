@@ -1,8 +1,9 @@
-import torch
 import numpy as np
+import torch
 
 from torch_structure.data import StructData
 from torch_structure.generators.base_generator import BaseGenerator
+
 
 class SingleTrailGenerator(BaseGenerator):
     """Builds a single chain of CEM trail edges from the origin node to a fixed end node."""

@@ -1,5 +1,6 @@
 import pytest
 import torch
+
 from torch_structure.data import StructData
 from torch_structure.loader import DataLoader
 

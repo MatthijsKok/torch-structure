@@ -1,9 +1,14 @@
 import torch
 from torch_geometric.utils import scatter
-from torch_structure.message_passing import ResidualForce
-from torch_structure.formfinding.utils import reaction_force_at_supports
-from torch_structure.geometry import line_plane_intersect, point_normal_to_plane, graph_edge_lengths, line_direction
 
+from torch_structure.formfinding.utils import reaction_force_at_supports
+from torch_structure.geometry import (
+    graph_edge_lengths,
+    line_direction,
+    line_plane_intersect,
+    point_normal_to_plane,
+)
+from torch_structure.message_passing import ResidualForce
 
 ALLOWED_UPDATE_KEYS = {
     "coords", 

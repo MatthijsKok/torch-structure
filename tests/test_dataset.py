@@ -1,5 +1,6 @@
 import torch
-from torch_structure.data import StructData, Dataset, save
+
+from torch_structure.data import Dataset, StructData, save
 from torch_structure.loader import DataLoader
 
 

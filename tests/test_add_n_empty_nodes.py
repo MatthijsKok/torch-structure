@@ -1,5 +1,7 @@
 import torch
+
 from torch_structure.data.data import StructData
+
 
 def test_add_n_empty_nodes():
 

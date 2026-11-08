@@ -1,10 +1,10 @@
 import numpy as np
 import pytest
 import torch
+
 import torch_structure as ts
 from torch_structure.data import StructData
 from torch_structure.loader import DataLoader
-
 
 PRECISIONS = [torch.float32, torch.float64]
 

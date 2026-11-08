@@ -2,7 +2,6 @@ import warnings
 
 from torch_structure.plot import plot_structure
 
-
 # keyword arguments of the earlier plot_data-based StructData.plot, and how they translate
 _LEGACY_KWARGS = {
     "show_supports": "supports",

@@ -1,8 +1,9 @@
 import os
-import torch
-import numpy as np
-import matplotlib.pyplot as plt
+
 import matplotlib.patches as mpatches
+import matplotlib.pyplot as plt
+import numpy as np
+import torch
 
 DARK = os.environ.get("TS_DARK") == "1"
 

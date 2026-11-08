@@ -2,9 +2,10 @@
 Example: Linear-elastic analysis of a braced 3D frame with rigid and pin-ended members
 """
 
-import torch
-import torch_structure as ts
 import matplotlib.pyplot as plt
+import torch
+
+import torch_structure as ts
 
 # ------------------------------------
 # 1. Set up the attributes of the frame

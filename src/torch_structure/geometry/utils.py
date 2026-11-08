@@ -1,5 +1,6 @@
 import torch
 
+
 def line_length(start_coords, end_coords):
     r""" Compute the length of lines defined by start and end coordinates.
 

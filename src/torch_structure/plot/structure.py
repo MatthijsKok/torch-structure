@@ -16,7 +16,6 @@ from matplotlib.colors import Normalize, is_color_like, to_rgba
 from matplotlib.lines import Line2D
 from mpl_toolkits.mplot3d.art3d import Line3DCollection
 
-
 TENSION_COLOR = "#E40714"
 COMPRESSION_COLOR = "#0578BF"
 LOAD_COLOR = "#007F00"

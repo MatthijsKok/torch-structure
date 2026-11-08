@@ -2,6 +2,7 @@ import warnings
 
 import pytest
 import torch
+
 from torch_structure.data.data import StructData
 
 

@@ -1,5 +1,10 @@
-from torch_structure.formfinding import mpcem_algorithm, cem_algorithm, seq_cem_algorithm
+from torch_structure.formfinding import (
+    cem_algorithm,
+    mpcem_algorithm,
+    seq_cem_algorithm,
+)
 from torch_structure.mixins.utils import OverrideResolveMixin
+
 
 class CEMMixin(OverrideResolveMixin):
     """Adds Combinatorial Equilibrium Modeling (CEM) form-finding methods to a data class."""

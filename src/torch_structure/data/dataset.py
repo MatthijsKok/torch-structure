@@ -1,5 +1,6 @@
-from torch_geometric.data import InMemoryDataset
 import os
+
+from torch_geometric.data import InMemoryDataset
 
 
 class LegacyDataset(InMemoryDataset):

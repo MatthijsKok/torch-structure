@@ -1,10 +1,12 @@
 import os
-import torch
-import numpy as np
-import matplotlib.pyplot as plt
+
 import matplotlib.colors as mcolors
+import matplotlib.pyplot as plt
+import numpy as np
+import torch
 from mpl_toolkits.mplot3d import proj3d
 from PIL import Image, ImageChops
+
 from torch_structure.data.data import StructData
 from torch_structure.plot.pattern import _Arrow3D
 

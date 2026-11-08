@@ -1,5 +1,6 @@
 import torch
 from torch.nn import NLLLoss
+
 from torch_structure.message_passing import LocalLogicLoss, WeightedMax
 
 

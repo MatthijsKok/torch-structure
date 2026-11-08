@@ -1,7 +1,7 @@
 import torch
 from torch.nn import MSELoss
 from torch_geometric.nn import MessagePassing
-from torch_geometric.nn.aggr import SumAggregation, MaxAggregation
+from torch_geometric.nn.aggr import MaxAggregation, SumAggregation
 
 
 class LocalLogicLoss(MessagePassing):

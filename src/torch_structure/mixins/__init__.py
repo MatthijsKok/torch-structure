@@ -6,6 +6,7 @@ from .plot import PlotMixin
 from .tna import TNAMixin
 from .utils import OverrideResolveMixin
 
+
 class TSMixin(CEMMixin, FDMMixin, FEMMixin, LaplacianMixin, PlotMixin, TNAMixin):
     """Combines all form-finding, analysis, smoothing, and plotting mixins onto a single data class."""
 

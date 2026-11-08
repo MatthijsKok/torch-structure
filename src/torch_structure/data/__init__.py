@@ -1,7 +1,7 @@
 import torch
 
 from .data import StructData
-from .dataset import Dataset, save, LegacyDataset
+from .dataset import Dataset, LegacyDataset, save
 from .utils import requires_metadata
 from .view import NodeView
 

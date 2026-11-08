@@ -1,8 +1,10 @@
 import os
-import torch
-import numpy as np
+
 import matplotlib.pyplot as plt
+import numpy as np
+import torch
 from PIL import Image, ImageChops
+
 from torch_structure.data.data import StructData
 
 DARK = os.environ.get("TS_DARK") == "1"

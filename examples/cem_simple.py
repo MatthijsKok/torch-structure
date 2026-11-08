@@ -1,6 +1,8 @@
-import torch
-import torch_structure as ts
 import time
+
+import torch
+
+import torch_structure as ts
 
 # -------------------------
 # 1. Build topology diagram

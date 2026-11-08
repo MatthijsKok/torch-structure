@@ -1,5 +1,6 @@
-import torch
 import numpy as np
+import torch
+
 from torch_structure.message_passing import StiffnessAggregator
 
 

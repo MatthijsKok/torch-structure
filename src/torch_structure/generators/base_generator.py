@@ -1,5 +1,7 @@
 from abc import ABC, abstractmethod
+
 from torch_structure.data import StructData
+
 
 class InvalidSampleError(Exception):
     """Sample violated generator constraints."""

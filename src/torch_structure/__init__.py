@@ -3,18 +3,20 @@ TorchStructure is a python package for graph-based autodifferentiable structural
 and engineering.
 """
 
-from importlib.metadata import version, PackageNotFoundError
+from importlib.metadata import PackageNotFoundError, version
 
-from . import analysis
-from . import data
-from . import formfinding
-from . import generators
-from . import loader
-from . import message_passing
-from . import loss
-from . import plot
-from . import transforms
-from . import utils
+from . import (
+    analysis,
+    data,
+    formfinding,
+    generators,
+    loader,
+    loss,
+    message_passing,
+    plot,
+    transforms,
+    utils,
+)
 
 try:
     __version__ = version(__name__)

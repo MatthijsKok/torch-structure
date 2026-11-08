@@ -1,6 +1,7 @@
-import torch
 import math
+
 import numpy as np
+import torch
 
 from torch_structure.data import StructData
 from torch_structure.generators.base_generator import BaseGenerator, InvalidSampleError

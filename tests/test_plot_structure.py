@@ -9,7 +9,7 @@ from matplotlib.colors import to_rgba
 from mpl_toolkits.mplot3d.art3d import Line3DCollection
 
 from torch_structure.data import StructData
-from torch_structure.plot import TENSION_COLOR, COMPRESSION_COLOR, plot_structure
+from torch_structure.plot import COMPRESSION_COLOR, TENSION_COLOR, plot_structure
 
 
 @pytest.fixture(autouse=True)

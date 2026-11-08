@@ -1,6 +1,7 @@
 from torch_structure.formfinding import fdm, reaction_force_at_supports
 from torch_structure.mixins.utils import OverrideResolveMixin
 
+
 class FDMMixin(OverrideResolveMixin):
     """Adds the Force Density Method (FDM) form-finding method to a data class."""
 

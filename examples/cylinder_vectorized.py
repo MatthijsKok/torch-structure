@@ -1,6 +1,8 @@
-import torch
-from torch_structure.data.data import StructData
 import matplotlib.pyplot as plt
+import torch
+
+from torch_structure.data.data import StructData
+
 N_SECTORS = 8
 N_RINGS = 5
 

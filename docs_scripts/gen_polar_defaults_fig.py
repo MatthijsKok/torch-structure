@@ -1,7 +1,7 @@
-import numpy as np
-import matplotlib.pyplot as plt
-from matplotlib.lines import Line2D
 import matplotlib.patches as mpatches
+import matplotlib.pyplot as plt
+import numpy as np
+from matplotlib.lines import Line2D
 
 n_rings   = 1
 n_sectors = 5

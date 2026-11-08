@@ -1,7 +1,9 @@
-import torch
-from torch_structure.data.data import StructData
-import matplotlib.pyplot as plt
 import math
+
+import matplotlib.pyplot as plt
+import torch
+
+from torch_structure.data.data import StructData
 
 node_attrs = {
     "coords": torch.empty((0, 3), dtype=torch.float)

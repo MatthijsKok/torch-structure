@@ -1,8 +1,9 @@
 """A cylinder grown from a single seed node: a vertical array nested inside a rotation."""
 
-import torch
-import torch_structure as ts
 import matplotlib.pyplot as plt
+import torch
+
+import torch_structure as ts
 
 node_attrs = {"coords": torch.empty((0, 3), dtype=torch.float)}
 edge_attrs = {"force": torch.empty((0, 1), dtype=torch.float)}

@@ -1,5 +1,5 @@
-from torch_geometric.transforms import BaseTransform
 import torch
+from torch_geometric.transforms import BaseTransform
 
 
 class ScaleZ(BaseTransform):  # ToDo: Generalize to structures with non-vertical loads

@@ -1,8 +1,8 @@
-import torch_structure as ts
 import matplotlib.pyplot as plt
-import torch.nn as nn
 import torch
+import torch.nn as nn
 
+import torch_structure as ts
 from torch_structure.data import StructData
 
 # Parameters 

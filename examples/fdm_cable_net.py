@@ -2,8 +2,9 @@
 Example: Form-find a Cable Net with the Force Density Method (FDM)
 """
 
-import torch_structure as ts
 import matplotlib.pyplot as plt
+
+import torch_structure as ts
 
 # --------------------------------
 # 1. Create inital cable net setup

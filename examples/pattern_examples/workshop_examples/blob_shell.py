@@ -1,8 +1,9 @@
 """A shell made by two translations and two mirrors, arrayed n_x x n_y times, and form-found with the force density method."""
 
-import torch
-import torch_structure as ts
 import matplotlib.pyplot as plt
+import torch
+
+import torch_structure as ts
 
 node_attrs = {
     "coords": torch.empty((0, 3), dtype=torch.float),

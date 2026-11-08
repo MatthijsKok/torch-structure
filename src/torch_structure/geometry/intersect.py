@@ -1,5 +1,7 @@
 import torch
+
 from torch_structure.geometry import point_normal_to_plane
+
 
 def line_plane_intersect(
     plane: torch.Tensor,

@@ -1,7 +1,9 @@
-import pytest
-from torch_structure.generators.dome import DomeGenerator
-import torch
 import random
+
+import pytest
+import torch
+
+from torch_structure.generators.dome import DomeGenerator
 
 
 @pytest.fixture

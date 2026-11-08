@@ -1,13 +1,14 @@
 # ToDo: Refactor to inherit from BaseGenerator
 # Todo: Update outdated data structure
 
-import numpy as np
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d.art3d import Poly3DCollection
 import math
-import torch_geometric
-from torch_geometric.data import Data
+
+import matplotlib.pyplot as plt
+import numpy as np
 import torch
+import torch_geometric
+from mpl_toolkits.mplot3d.art3d import Poly3DCollection
+from torch_geometric.data import Data
 
 from torch_structure.generators import Structure
 

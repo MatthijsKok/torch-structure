@@ -1,5 +1,6 @@
 import pytest
 import torch
+
 import torch_structure as ts
 
 

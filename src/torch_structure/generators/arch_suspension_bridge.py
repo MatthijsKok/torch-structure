@@ -1,12 +1,13 @@
-import torch
 import math
-import numpy as np
-from torch_geometric.utils import scatter
 from functools import partial
 
+import numpy as np
+import torch
+from torch_geometric.utils import scatter
+
 from torch_structure.data import StructData
-from torch_structure.generators.base_generator import BaseGenerator, InvalidSampleError
 from torch_structure.formfinding.cem import constrained_deck_cb
+from torch_structure.generators.base_generator import BaseGenerator, InvalidSampleError
 from torch_structure.geometry.utils import line_direction
 
 

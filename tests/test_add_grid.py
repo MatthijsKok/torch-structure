@@ -1,4 +1,5 @@
 import torch
+
 from torch_structure.data.data import StructData
 
 

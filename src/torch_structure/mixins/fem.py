@@ -1,6 +1,7 @@
 from torch_structure.analysis import frame_analysis
 from torch_structure.mixins.utils import OverrideResolveMixin
 
+
 class FEMMixin(OverrideResolveMixin):
     """Adds linear-elastic frame and truss analysis to a data class."""
 

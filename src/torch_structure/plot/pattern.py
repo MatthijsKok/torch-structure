@@ -14,7 +14,6 @@ from matplotlib.patches import FancyArrowPatch, Patch
 from mpl_toolkits.mplot3d import proj3d
 from mpl_toolkits.mplot3d.art3d import Line3DCollection, Poly3DCollection
 
-
 # the package's orange, the same for every kind: the kinds are told apart by how they are drawn
 PATTERN_COLOR = "#E7461E"
 

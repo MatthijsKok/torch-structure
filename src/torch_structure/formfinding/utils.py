@@ -1,5 +1,5 @@
-import torch
 import scipy.linalg
+import torch
 
 from torch_structure.message_passing import ResidualForce
 

@@ -1,8 +1,9 @@
 import os
-import numpy as np
-import matplotlib.pyplot as plt
-from matplotlib.lines import Line2D
+
 import matplotlib.patches as mpatches
+import matplotlib.pyplot as plt
+import numpy as np
+from matplotlib.lines import Line2D
 
 DARK = os.environ.get("TS_DARK") == "1"
 

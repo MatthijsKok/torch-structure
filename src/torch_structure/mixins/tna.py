@@ -1,6 +1,7 @@
 from torch_structure.formfinding import tna
 from torch_structure.mixins.utils import OverrideResolveMixin
 
+
 class TNAMixin(OverrideResolveMixin):
     """Adds the Thrust Network Analysis (TNA) form-finding method to a data class."""
 
