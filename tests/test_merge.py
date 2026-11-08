@@ -3,7 +3,6 @@ import warnings
 import pytest
 import torch
 from torch_structure.data.data import StructData
-import matplotlib.pyplot as plt
 
     
 def test_merge_one_grid_to_cylinder():

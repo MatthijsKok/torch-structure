@@ -2,8 +2,6 @@ import torch_geometric as pyg
 import torch
 import warnings
 import inspect
-import copy
-import json
 import itertools
 
 from torch_structure.data.view import NodeView

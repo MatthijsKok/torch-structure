@@ -1,5 +1,4 @@
 import torch
-import numpy as np
 
 from torch_structure.data import StructData
 from torch_structure.generators.base_generator import BaseGenerator

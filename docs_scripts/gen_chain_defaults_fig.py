@@ -3,7 +3,6 @@ import torch
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
-from matplotlib.lines import Line2D
 
 DARK = os.environ.get("TS_DARK") == "1"
 

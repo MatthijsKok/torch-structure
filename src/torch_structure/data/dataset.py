@@ -1,5 +1,4 @@
 from torch_geometric.data import InMemoryDataset
-from torch_structure.data import StructData
 import os
 
 
