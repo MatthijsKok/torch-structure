@@ -10,7 +10,7 @@ import torch_geometric
 from mpl_toolkits.mplot3d.art3d import Poly3DCollection
 from torch_geometric.data import Data
 
-from torch_structure.generators import Structure
+from torch_structure.generators.structure import Structure
 
 
 class Bridge(Structure):
